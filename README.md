@@ -1,4 +1,4 @@
-﻿# CineMind_MovieBooking
+﻿# Inquiry_Agent
 # 🤖 Inquiry_Agent
 > *AI-Powered inquiry agent that is able to fetch data using a tool from an public API and then response the user in natural language.*
 
@@ -59,4 +59,5 @@ A workflow graph (`my_graph.png`) is generated automatically.
 - Add **intent classification** and **query generation**  
 - Build **frontend (React/Streamlit)**  
 - Deploy via **FastAPI**
+
 
