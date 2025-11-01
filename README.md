@@ -5,7 +5,7 @@
 ---
 
 ## 🧠 Overview
-This agaent uses LangGraph and LangChain to build intelligent workflows for data recieved from API. It acts as an AI assistant that converts JSON format of data recieved from an API  and summarizes results into human-readable insights using Gemini 2.5 Flash.
+This agent uses LangGraph and LangChain to build intelligent workflows for data recieved from API. It acts as an AI assistant that converts JSON format of data recieved from an API  and summarizes results into human-readable insights using Gemini 2.5 Flash.
 
 ---
 
@@ -59,5 +59,6 @@ A workflow graph (`my_graph.png`) is generated automatically.
 - Add **intent classification** and **query generation**  
 - Build **frontend (React/Streamlit)**  
 - Deploy via **FastAPI**
+
 
 
