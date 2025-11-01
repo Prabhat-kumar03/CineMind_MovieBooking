@@ -1,11 +1,11 @@
 ﻿# CineMind_MovieBooking
-# 🎬 CineMind
-> *AI-Powered MovieBooking Data Query System — where LangGraph meets the big screen.*
+# 🤖 Inquiry_Agent
+> *AI-Powered inquiry agent that is able to fetch data using a tool from an public API and then response the user in natural language.*
 
 ---
 
 ## 🧠 Overview
-CineMind uses LangGraph and LangChain to build intelligent workflows for cinema data. It acts as an AI cinema assistant that converts natural language into MySQL queries, fetches movie details, and summarizes results into human-readable insights using Gemini 2.5 Flash.
+This agaent uses LangGraph and LangChain to build intelligent workflows for data recieved from API. It acts as an AI assistant that converts JSON format of data recieved from an API  and summarizes results into human-readable insights using Gemini 2.5 Flash.
 
 ---
 
@@ -34,7 +34,7 @@ graph TD
 ## 🚀 Usage
 ```bash
 git clone https://github.com/yourusername/CineMind.git
-cd CineMind
+cd Inquiry_Agent
 pip install -r requirements.txt
 python app.py
 ```
@@ -55,7 +55,8 @@ A workflow graph (`my_graph.png`) is generated automatically.
 ---
 
 ## 🧩 Future Scope
-- Integrate real **MySQL movie DB**  
+- Integrate real **API data**  
 - Add **intent classification** and **query generation**  
 - Build **frontend (React/Streamlit)**  
 - Deploy via **FastAPI**
+
